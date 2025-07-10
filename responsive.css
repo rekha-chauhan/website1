@@ -1,0 +1,418 @@
+/* for  Large Devices like Small Laptops, Desktops */
+
+@media screen and (max-width:1200px) {
+
+    /* home_page */
+
+    .banner_section {
+        background-position: center !important;
+    }
+
+
+    .counseling_content p {
+        text-align: left;
+    }
+
+    /* footer */
+    .footer_anchors a {
+        display: flex;
+        gap: 15px !important;
+        padding-bottom: 5px;
+    }
+
+    .footer_anchors a {
+        gap: 15px;
+    }
+
+
+}
+
+/* for  Medium Devices like Tablets (e.g., iPad) */
+@media screen and (max-width:992px) {
+
+    .anchors_link {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .all_div_container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .banner_section {
+        height: 85vh;
+        background-position: right !important;
+    }
+
+
+    .counseling_img_content_holder {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-inline: var(--padding-inline);
+        margin-block: 80px;
+    }
+
+    .counseling_content h2 {
+        font-size: 25px;
+    }
+
+    .counseling_content p {
+        line-height: 1.6;
+    }
+
+    .relation_anchors_link {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .relation_anchors_content_both_holder {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .happy_client {
+        height: auto;
+        padding-block: 40px;
+    }
+
+    .happy_client_content_img_holder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .price_plan_content_button_holder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .common_heading {
+        margin-top: 0;
+    }
+
+    .price_plan {
+        background-color: #eee;
+        padding-inline: var(--padding-inline);
+        padding-block: 100px;
+    }
+
+    .blog_main_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .footer_all_div_content_holder {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .counseling_content h2 {
+        font-size: 55px;
+    }
+
+
+}
+
+/*  for  Small Devices like  Mobile Landscape (e.g., iPhone 12) */
+
+@media screen and (max-width:767px) {
+
+    .anchors_link a {
+        color: black;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+
+    .banner_section {
+        height: 500px;
+    }
+
+    .counselling_content_holder {
+        display: none !important;
+    }
+
+    .counseling_img_content_holder {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .river_all_content_holder {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .All_service_content_holder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 20px;
+        padding-inline: var(--padding-inline);
+        /* text-align: center; */
+        line-height: 2;
+    }
+
+    .counseling_content h2 {
+        font-size: 30px;
+    }
+
+    .price_plan_content_button_holder button {
+
+        width: 100%;
+
+    }
+
+    .anchors_link a {
+        color: black;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+
+
+    .relation_anchors_content_both_holder {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .happy_client_content_img_holder {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        padding-inline: var(--primary-color);
+        margin-top: 40px;
+    }
+
+    .price_plan {
+        background-color: #eee;
+        padding-inline: var(--padding-inline);
+
+    }
+
+    .price_plan_content_button_holder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .blog_main_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .all_div_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .form div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+}
+
+/* for  Extra Small Devices like  Mobile Portrait (e.g., iPhone SE)*/
+@media screen and (max-width:600px) {
+
+
+    .logo_anchor_holder {
+        display: flex;
+
+        align-items: center;
+
+    }
+
+    .both_awesome_icon_parent {
+        display: none;
+    }
+
+
+    .logo_anchor_holder {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .common_heading h4 {
+        color: var(--secondary-color);
+        font-size: 16px;
+    }
+
+    .common_heading h5 {
+        font-size: 25px;
+    }
+
+    .counseling_content h2 {
+        font-size: 25px;
+    }
+
+    .relation_anchors_link a {
+        font-size: 14px;
+    }
+
+    .common_heading1 h4 {
+        text-transform: uppercase;
+        font-size: 13px;
+        padding-top: unset;
+    }
+
+ 
+
+
+.price_button2 {
+    width: 100% !important;
+}
+
+.price_plan_content_button_holder {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+
+}
+
+.form div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+}
+
+@media screen and (max-width:320px) {
+    .banner_section {
+        height: 400px;
+        background-attachment: unset;
+    }
+
+    .river_section {
+        color: white;
+        margin-top: -80px;
+        width: 100%;
+        padding-left: 0%;
+        background-color: #4e815c;
+        text-align: left;
+    }
+
+    .logo_anchor_holder {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .All_service_content_holder {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 20px;
+        padding-inline: 0;
+        /* text-align: center; */
+        line-height: 1.7;
+    }
+
+    .counseling_img_content_holder {
+        width: 100%;
+        padding-inline: 5px;
+    }
+
+    .counseling_content h2 {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .counseling_content h4 {
+        color: var(--secondary-color);
+        text-transform: uppercase;
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .common_heading h5 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .common_heading {
+        text-align: center;
+        padding-bottom: unset;
+        margin: unset;
+    }
+
+    .get_in_touch {
+        padding-inline: unset;
+        padding-block: 40x;
+    }
+
+    .form div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .form_container h2 {
+        color: white;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .blog_section {
+        padding-block: 40px;
+        padding-inline: 10px;
+    }
+
+
+
+    .relation_problem {
+        padding-inline: unset;
+        padding-inline: 10px;
+    }
+
+    .happy_client {
+        padding-inline: unset;
+    }
+
+    .price_plan {
+        padding-inline: unset;
+    }
+
+    .common_heading {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .all_div_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding-inline: 10px;
+    }
+
+    .All_service_content_holder {
+        padding-inline: 10px;
+    }
+
+    .footer_section {
+        padding-inline: 10px;
+    }
+
+    .relation_anchors_link {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .form_container {
+        padding-inline: 10px;
+    }
+}
