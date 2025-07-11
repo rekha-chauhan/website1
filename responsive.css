@@ -9,8 +9,9 @@
     }
 
     .form form {
-    width: 65%;
-}
+        width: 65%;
+    }
+
     .counseling_content p {
         text-align: left;
     }
@@ -154,49 +155,50 @@
         margin-top: 40px;
     }
 
- 
 
 
-.price_plan_content_button_holder {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
-}
 
-.All_service_content_holder {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr) !important;
-    gap: 20px;
-    padding-inline: unset;
-    padding: 20px;
-    /* text-align: center; */
-    line-height: 2;
-    width: 65%;
-    margin: 0 auto;
-}
+    .price_plan_content_button_holder {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
 
-
-.counseling_img_content_holder {
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.river_all_content_holder {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
+    .All_service_content_holder {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 20px;
+        padding-inline: unset;
+        padding: 20px;
+        /* text-align: center; */
+        line-height: 2;
+        width: 65%;
+        margin: 0 auto;
+    }
 
 
-.counseling_content h2 {
-    font-size: 30px;
-}
+    .counseling_img_content_holder {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 
-.price_plan_content_button_holder button {
+    .river_all_content_holder {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-    width: 100%;
 
-}
-   .form form {
+    .counseling_content h2 {
+        font-size: 30px;
+    }
+
+    .price_plan_content_button_holder button {
+
+        width: 100%;
+
+    }
+
+    .form form {
         width: 100%;
     }
 
@@ -205,19 +207,21 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
     }
-    .all_div_container{
+
+    .all_div_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .counselling_content_holder{
+
+    .counselling_content_holder {
         display: none;
     }
 
-.anchors_link a {
-    color: black;
-    font-size: 14px;
-    margin-left: 10px;
-}
+    .anchors_link a {
+        color: black;
+        font-size: 14px;
+        margin-left: 10px;
+    }
 
 }
 
@@ -234,8 +238,10 @@
         display: none;
     }
 
-    .All_service_content_holder{
+
+    .All_service_content_holder {
         padding-inline: unset;
+        padding-inline: 20px;
     }
 
     .logo_anchor_holder {
@@ -252,10 +258,7 @@
         background-color: #4e815c;
     }
 
-        .All_service_content_holder{
-            padding-inline: unset;
-            padding-inline: 20px;
-        }
+
     .relation_problem {
         padding-inline: unset;
         padding-inline: 20PX;
@@ -300,7 +303,7 @@
     }
 
     .price_plan_content_button_holder div {
-        margin-inline: 20px;
+        /* margin-inline: 20px; */
     }
 
     .form form {
@@ -337,18 +340,7 @@
     }
 
 
-    .relation_anchors_link a {
-        font-size: 16px;
-    }
 
-
-  
-
-    .all_div_container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
-    }
 }
 
 
@@ -376,5 +368,16 @@
     .footer_section {
         padding-inline: unset;
         padding-inline: 20px;
+    }
+
+    .all_div_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .relation_anchors_link a{
+        font-size: 16px;
+    }
+    .relation_anchors_content_both_holder {
+        /* padding-inline: 20px; */
     }
 }
