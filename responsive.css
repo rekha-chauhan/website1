@@ -233,23 +233,23 @@
 
     }
 
-
-    .logo_anchor_holder {
-        display: flex;
-
-        align-items: center;
-
-    }
-
     .both_awesome_icon_parent {
         display: none;
     }
 
 
-    .logo_anchor_holder {
+    /* .logo_anchor_holder {
         display: flex;
         align-items: center;
 
+    } */
+
+    .river_section {
+        color: white;
+        margin-top: -80px;
+        width: 85%;
+        padding-left: unset;
+        background-color: #4e815c;
     }
 
     .common_heading h4 {
@@ -265,8 +265,8 @@
         font-size: 25px;
     }
 
-    .relation_anchors_link a {
-        font-size: 14px;
+    .common_heading {
+        margin-bottom: 30px;
     }
 
     .common_heading1 h4 {
@@ -274,6 +274,12 @@
         font-size: 13px;
         padding-top: unset;
     }
+
+
+    .relation_anchors_link a {
+        font-size: 14px;
+    }
+
 
     .All_service_content_holder {
         display: grid;
@@ -284,33 +290,52 @@
         line-height: 2;
     }
 
-    .common_heading {
-        margin-bottom: 30px;
-    }
 
-    @media screen and (max-width: 320px) {
-        .logo_anchor_holder {
-            display: flex;
-            padding-inline: 45px;
-        }
-    }
-
-    .price_button2 {
-        width: 100% !important;
-    }
-
-    .price_plan_content_button_holder {
+    .all_div_container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap: 30px;
-
+        gap: 20px;
     }
+}
 
-    .form div {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 10px;
+
+
+@media screen and (max-width: 320px) {
+    .logo_anchor_holder {
+        display: flex;
+        padding-inline: 45px;
     }
+}
+
+.price_button2 {
+    width: 100% !important;
+}
+
+.price_plan_content_button_holder {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+
+}
+
+.form div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.form input,
+.form textarea {
+    display: block;
+    border: none;
+    border-radius: 6px;
+    padding-inline: 10px;
+    padding-block: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
 }
 
 
