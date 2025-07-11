@@ -226,6 +226,12 @@
 
 /* for  Extra Small Devices like  Mobile Portrait (e.g., iPhone SE)*/
 @media screen and (max-width:600px) {
+    .banner_section {
+        height: 450px;
+        background-attachment: unset;
+        background-position: unset;
+
+    }
 
 
     .logo_anchor_holder {
@@ -269,32 +275,54 @@
         padding-top: unset;
     }
 
- 
+    .All_service_content_holder {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 20px;
+        padding-inline: var(--padding-inline);
+        /* text-align: center; */
+        line-height: 2;
+    }
 
+    .common_heading {
+        margin-bottom: 30px;
+    }
 
-.price_button2 {
-    width: 100% !important;
+    @media screen and (max-width: 320px) {
+        .logo_anchor_holder {
+            display: flex;
+            padding-inline: 45px;
+        }
+    }
+
+    .price_button2 {
+        width: 100% !important;
+    }
+
+    .price_plan_content_button_holder {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+
+    }
+
+    .form div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
 }
 
-.price_plan_content_button_holder {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
-
-}
-
-.form div {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
-}
-}
 
 @media screen and (max-width:320px) {
+
     .banner_section {
         height: 400px;
         background-attachment: unset;
+
+
     }
+
 
     .river_section {
         color: white;
@@ -326,6 +354,10 @@
         padding-inline: 5px;
     }
 
+    .counseling_img img {
+        padding-top: 20px;
+    }
+
     .counseling_content h2 {
         font-size: 18px;
         padding-bottom: 10px;
@@ -347,6 +379,11 @@
         text-align: center;
         padding-bottom: unset;
         margin: unset;
+    }
+
+    .happy_client_content {
+        padding: 20px;
+        margin-inline: 20px;
     }
 
     .get_in_touch {
