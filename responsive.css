@@ -126,6 +126,10 @@
         padding-block: 100px;
     }
 
+    .form form {
+        width: 80%;
+    }
+
     .blog_main_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -259,10 +263,11 @@
     .footer_section {
         padding-block: var(--padding-block);
         background-color: #1a1a1a;
-        padding-inline: unset;
+
         color: white;
         margin-top: 40px;
-        paddng
+        padding-inline: var(--padding-inline);
+
     }
 
 }
@@ -271,6 +276,7 @@
 
 /* for  Extra Small Devices like  Mobile Portrait (e.g., iPhone SE)*/
 @media screen and (max-width:600px) {
+
     .banner_section {
         height: 450px;
         background-attachment: unset;
@@ -350,6 +356,11 @@
         /* margin-inline: 20px; */
     }
 
+    .get_in_touch {
+        padding-inline: unset;
+        padding-inline: 20px;
+    }
+
     .form form {
         width: 100%;
     }
@@ -394,7 +405,7 @@
 }
 
 
-}
+
 
 
 
@@ -407,6 +418,10 @@
         /* text-align: center; */
         line-height: 2;
         padding-inline: 20px;
+    }
+
+    .counseling_content h2 {
+        padding-block: 10px;
     }
 
     .counseling_img img {
