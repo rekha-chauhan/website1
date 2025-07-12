@@ -236,7 +236,7 @@
 
     .all_div_container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .counselling_content_holder {
@@ -245,8 +245,13 @@
 
     .anchors_link a {
         color: black;
-        font-size: 14px;
+        font-size: 20px;
         margin-left: 10px;
+    }
+
+    .all_div_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
@@ -387,6 +392,7 @@
     }
 
     .get_in_touch {
+
         padding-inline: unset;
         padding-inline: 20px;
     }
