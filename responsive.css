@@ -252,9 +252,12 @@
     .all_div_container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        padding-inline: unset;
+        padding-inline: 20px;
     }
-
 }
+
+
 
 /* for  Extra Small Devices like  Mobile Portrait (e.g., iPhone SE)*/
 @media screen and (max-width:600px) {
