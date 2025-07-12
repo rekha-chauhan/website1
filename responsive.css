@@ -28,6 +28,7 @@
     }
 
 
+
 }
 
 /* for  Medium Devices like Tablets (e.g., iPad) */
@@ -44,13 +45,30 @@
 
     .all_div_container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .banner_section {
-        height: 85vh;
+        height: 90vh;
         background-position: right !important;
     }
+
+    .river_section {
+        width: 100%;
+    }
+
+    .All_service_content_holder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .counseling_img img {
+        width: 100%;
+        height: 590px;
+        object-fit: cover;
+        background-position: center;
+    }
+
 
 
     .counseling_img_content_holder {
@@ -70,7 +88,7 @@
 
     .relation_anchors_link {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 15px;
     }
 
@@ -114,17 +132,25 @@
         gap: 30px;
     }
 
-    .footer_all_div_content_holder {
+    .all_div_container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .common_heading h4 {
+        font-size: 16px;
+    }
+
+    .common_heading h5 {
+        font-size: 45px;
     }
 
     .counseling_content h2 {
-        font-size: 55px;
+        font-size: 45px;
     }
-
-
 }
+
 
 /*  for  Small Devices like  Mobile Landscape (e.g., iPhone 12) */
 
@@ -172,7 +198,7 @@
         padding: 20px;
         /* text-align: center; */
         line-height: 2;
-        width: 65%;
+        width: 80%;
         margin: 0 auto;
     }
 
@@ -374,9 +400,11 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    .relation_anchors_link a{
+
+    .relation_anchors_link a {
         font-size: 16px;
     }
+
     .relation_anchors_content_both_holder {
         /* padding-inline: 20px; */
     }
