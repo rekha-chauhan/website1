@@ -255,6 +255,16 @@
         padding-inline: unset;
         padding-inline: 20px;
     }
+
+    .footer_section {
+        padding-block: var(--padding-block);
+        background-color: #1a1a1a;
+        padding-inline: unset;
+        color: white;
+        margin-top: 40px;
+        paddng
+    }
+
 }
 
 
@@ -373,6 +383,15 @@
         padding-top: unset;
     }
 
+    .footer_section {
+        padding-block: var(--padding-block);
+        background-color: #1a1a1a;
+        padding-inline: unset;
+        color: white;
+        margin-top: 40px;
+        padding-inline: 20px;
+    }
+}
 
 
 }
